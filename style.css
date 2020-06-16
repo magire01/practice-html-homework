@@ -1,0 +1,13 @@
+h1 {
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: grey;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: grey;
+}

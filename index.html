@@ -1,37 +1,86 @@
 <!DOCTYPE html>
 <html lang = en us>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset = "UTF-8" />
         <title> Practice-HTML-Homework</title>
     </head>
 
     <body>
         <h1> Practice HTML Homework</h1>
-
+<!-- picture -->
         <p> <img src = "https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" width = "250px" height = "150px">
         </p>
-
+<!-- unordered list -->
         <h2> My favorite hobbies </h2>
-        <p>
-            <ul>Music</ul>
-            <ul>Traveling</ul>
-            <ul>Cooking</ul>
-            <ul>Hiking</ul>
-            <ul>Film</ul>
-        </p>
-
+        
+        <ul>
+            <li>Music</li>
+            <li>Traveling</li>
+            <li>Cooking</li>
+            <li>Hiking</li>
+            <li>Film</li>
+        </ul>
+<!-- youtube vid -->
         <h3> My Favorite Youtube Video</h3>
         <p>
             <iframe width="640" height="376" src="https://www.youtube.com/embed/NsLKQTh-Bqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
 
+        <!-- alternate way of separating links without line break -->
         <p>
+            <!-- One link that is `target="_blank"` so that it opens a new tab when clicked on. -->
             <a href = "https://www.google.com" target="_blank">Open new tab</a>
-            <br>
+        </p>
+
+        <p>
+            <!-- Make the second link bold. -->
             <a style = "font-weight: bold" href = "https://www.google.com">Bold Font</a>
-            <br>
+        </p>
+
+        <p>    
+            <!-- Make the third link a placeholder so it goes nowhere. -->
             <a href = " ">Placeholder</a>
         </p>
+<!-- table -->
+        <p>
+            <table style="width:200px"
+            style="border:5px">
+                <tr>
+                    <th>Animal</th>
+                    <th>Animal type</th>
+                </tr>
+
+                <tr>
+                    <td>Cow</td>
+                    <td>Land</td>
+                </tr>
+
+                <tr>
+                    <td>Whale</td>
+                    <td>Sea</td>
+                </tr>
+
+                <tr>
+                    <td>Dog</td>
+                    <td>Land</td>
+                </tr>
+
+                <tr>
+                    <td>Dolphin</td>
+                    <td>Sea</td>
+                </tr>
+            </table>
+        </p>
+        <!-- ordered list -->
+        <h4>Peanut butter and jelly sandwich</h4>
+        <ol>
+            <li> Scoop one tablespoon of peanut butter and spread it over a slice of bread</li>
+            <li> Scoop one tablespoon of peanut better and spread it over another slice of brea</li>
+            <li> Add 1 table spoon of jelly to one of the slices of bread</li> 
+            <li>Press the other slice of bread peanut butter side down onto the jellied slice of bread</li>
+            <li> Cut Diagonally and serve</li>
+        </ol>
     </body>
 
 </html>
